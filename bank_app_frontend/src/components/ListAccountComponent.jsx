@@ -81,7 +81,7 @@ class ListAccountComponent extends Component {
                                     <td> { account.accountNumber } </td>
                                     <td> { account.accountType } </td>
                                     <td> { account.amountDeposited } </td>
-                                    <td> { account.amountWithdrawed } </td>
+                                    <td> { account.amountWithdrawn } </td>
                                     <td> { account.accountBalance } </td>
                                     {/* <td>
                                         <button onClick = { () => this.editAccount(account.id)} className = "btn btn-info"> Update </button>
