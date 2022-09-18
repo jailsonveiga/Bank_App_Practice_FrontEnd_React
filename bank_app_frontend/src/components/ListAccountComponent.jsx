@@ -39,7 +39,7 @@ class ListAccountComponent extends Component {
             {/* // <h2> is a tag to define a h2 element */}
             {/* // className is used to define the class of the element - class in regular HTML */}
             {/* // "text-center" is the class name */}
-           <h2 className = "test-center" > User Account List </h2>
+           <h2 className = "test-center" > Users Account List </h2>
               <div className = "row" >
                 <table className = "table table-striped table-bordered" >
                     <thead>
