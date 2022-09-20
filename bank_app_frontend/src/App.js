@@ -15,7 +15,7 @@ function App() {
         <div className="container">
           <Switch>
             <Route path="/" exact component={ListAccountComponent}></Route>
-            <Route path="/accounts" component={ListAccountComponent}></Route>
+            <Route path="/getall" component={ListAccountComponent}></Route>
             <Route path="/createuser" component={CreateUserComponent}></Route>
           </Switch>
         </div>
