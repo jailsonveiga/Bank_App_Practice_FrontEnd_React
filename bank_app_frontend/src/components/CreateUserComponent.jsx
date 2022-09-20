@@ -1,21 +1,19 @@
-import React, { PureComponent } from 'react'
+import React, { Component } from "react";
 
-class CreateUserComponent extends PureComponent {
-    constructor(props) {
-        super(props)
+class CreateUserComponent extends Component {
+  constructor(props) {
+    super(props);
 
-        this.state = {
-            
-        }
-    }
+    this.state = {};
+  }
 
-    render() {
-        return (
-            <div>
-
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <h1>User Form hello Jay</h1>
+      </div>
+    );
+  }
 }
 
-export default CreateUserComponent
+export default CreateUserComponent;
