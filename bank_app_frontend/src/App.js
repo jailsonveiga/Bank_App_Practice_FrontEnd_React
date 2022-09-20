@@ -1,10 +1,11 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ListAccountComponent from "./components/ListAccountComponent";
 import HeaderComponent from "./components/HeaderComponent";
 import FooterComponent from "./components/FooterComponent";
+import CreateUserComponent from "./components/CreateUserComponent";
 
 function App() {
   return (
@@ -12,10 +13,11 @@ function App() {
       <Router>
         <HeaderComponent />
         <div className="container">
-          <Routes>
-            <Route path="/" exact element={<ListAccountComponent />}></Route>
-            <Route path="/accounts" element={<ListAccountComponent />}></Route>
-          </Routes>
+          <Switch>
+            <Route path="/" exact component={ListAccountComponent}></Route>
+            <Route path="/accounts" component={ListAccountComponent}></Route>
+            <Route path="/createuser" component={CreateUserComponent}></Route>
+          </Switch>
         </div>
         <FooterComponent />
       </Router>
