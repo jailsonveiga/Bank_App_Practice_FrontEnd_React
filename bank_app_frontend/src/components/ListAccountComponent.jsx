@@ -55,6 +55,7 @@ class ListAccountComponent extends Component {
             <button
               onClick={this.addAccount}
               className="btn btn-outline-success me-2"
+              color="DeepSkyBlue"
               type="button"
             >
               Create User
@@ -68,20 +69,20 @@ class ListAccountComponent extends Component {
           <table className="table table-striped table-bordered">
             <thead>
               <tr>
-                <th color="red"> Id:</th>
-                <th color="red"> Name:</th>
-                <th color="red"> Email:</th>
-                <th color="red"> Age:</th>
-                <th color="red"> Street Address:</th>
-                <th color="red"> City:</th>
-                <th color="red"> State:</th>
-                <th color="red"> Country:</th>
-                <th color="red"> Phone Number:</th>
-                <th color="red"> Account Number:</th>
-                <th color="red"> Account Type:</th>
-                <th color="red"> Amount Deposited:</th>
-                <th color="red"> Amount Withdrawed:</th>
-                <th color="red"> Account Balance:</th>
+                <th color="yellow"> Id:</th>
+                <th color="yellow"> Name:</th>
+                <th color="yellow"> Email:</th>
+                <th color="yellow"> Age:</th>
+                <th color="yellow"> Street Address:</th>
+                <th color="yellow"> City:</th>
+                <th color="yellow"> State:</th>
+                <th color="yellow"> Country:</th>
+                <th color="yellow"> Phone Number:</th>
+                <th color="yellow"> Account Number:</th>
+                <th color="yellow"> Account Type:</th>
+                <th color="yellow"> Amount Deposited:</th>
+                <th color="yellow"> Amount Withdrawed:</th>
+                <th color="yellow"> Account Balance:</th>
               </tr>
             </thead>
             <tbody>
